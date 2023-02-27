@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pong Game</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+        
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+
+    <body>
+        <main class="classMain">
+            <section class="classMain_conteudo">
+                <h1 class="classMain_conteudo_titulo">PONG</h1>
+
+                <p class="classMain_conteudo_enter">Aperte ENTER quando estiver pronto!</p>
+
+                <div class="classMain_conteudo_modoDeJogo">
+                    <div>
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_umJogador" checked>
+                            <label for="modoDeJogo_umJogador">Um Jogador</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_doisJogadores">
+                            <label for="modoDeJogo_doisJogadores">Dois Jogadores</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_somenteMaquinas">
+                        <label for="modoDeJogo_somenteMaquinas">Batalha das Máquinas</label>
+                    </div>
+                </div>
+
+                <div class="classMain_conteudo_dificuldade">
+                    <div>
+                        <input type="radio" name="dificuldade" id="dificuldade_facil">
+                            <label for="dificuldade_facil">Fácil</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dificuldade" id="dificuldade_normal" checked>
+                            <label for="dificuldade_normal">Normal</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dificuldade" id="dificuldade_dificil">
+                            <label for="dificuldade_dificil">Difícil</label>
+                    </div>
+                </div>
+
+                <p class="classMain_conteudo_pausa">Você pode apertar a tecla P para pausar e mudar alguma coisa se quiser. ;P</p>
+
+                <div class="classMain_conteudo_instrucoes">
+                    <p>Jogador da esquerda (um jogador): use as teclas W e S para movimentar sua raquete.</p>
+                    <p>Jogador da direita (dois jogadores): use as teclas I e K para movimentar sua raquete.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p>Desenvolvido por Luis Fernando Brunca (feat. Alura).</p>
+        </footer>
+        
+        <script src="sketch.js"></script>
+        <script src="./libraries/p5.collide2d.js"></script>
+
+        <script src="./elementos/bolinha.js"></script>
+        <script src="./elementos/raquete.js"></script>
+        <script src="./elementos/cenario.js"></script>
+        <script src="./elementos/jogador1.js"></script>
+        <script src="./elementos/jogador2.js"></script>
+        <script src="./elementos/dificuldade.js"></script>
+        
+    </body>
+</html>
