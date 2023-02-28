@@ -33,7 +33,7 @@
 
 ### Mas e aí, como jogar?
 
-> Você pode simplesmente <a href="https://jogo-pong-nine.vercel.app/">clicar aqui e jogar</a>, ou baixá-lo em formato zip <a href="https://github.com/luisbrunca/jogoPong/archive/refs/heads/main.zip">aqui</a>.
+> Você pode simplesmente <a href="https://jogo-pong-luisbrunca.vercel.app/">clicar aqui e jogar</a>, ou baixá-lo em formato zip <a href="https://github.com/luisbrunca/jogoPong/archive/refs/heads/main.zip">aqui</a>.
 
 ### Tecnologias utilizadas
 
