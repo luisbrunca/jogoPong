@@ -45,14 +45,19 @@ function draw() {
 function keyPressed() {
     if (keyCode === 13) {
         
-        jogando = true;
-        trilhaSonora.loop();
-        
-        calculaDificuldade()
-        calculaChanceDeErrar(erroMinimo, erroMaximo);
+        if (jogando == false) {
+            jogando = true;
+            trilhaSonora.loop();
+            
+            calculaDificuldade()
+            calculaChanceDeErrar(erroMinimo, erroMaximo);
+        }            
 
     } else if (keyCode === 80) {
-        jogando = false;
-        trilhaSonora.stop();
+
+        if (jogando == true) {
+            jogando = false;
+            trilhaSonora.stop();
+        }
     }
 }
