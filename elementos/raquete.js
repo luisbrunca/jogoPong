@@ -15,11 +15,10 @@ function colisaoRaqueteBiblioteca(x, y) {
 
         if (xBolinha < width/2) {
             xBolinha = 0 + larguraBordaVertical + larguraRaquete + raioBolinha;
+            calculaChanceDeErrar(erroMinimo, erroMaximo);
         } else {
             xBolinha = width - larguraBordaVertical - larguraRaquete - raioBolinha;
         }
-
-        calculaChanceDeErrar(erroMinimo, erroMaximo);
         somRaquetada.play();
     }
 }

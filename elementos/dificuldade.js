@@ -23,14 +23,5 @@ function calculaDificuldade() {
 }
 
 function calculaChanceDeErrar(min, max) {
-
-    if (umJogador) {
-        if (pontosJogador1 <= pontosJogador2) {
-            chanceDeErrar = Math.floor(Math.random() * (max - min + 1)) + min;
-        } else {
-            chanceDeErrar = velocidadePadrao;
-        }
-    } else {
-        chanceDeErrar = Math.floor(Math.random() * (max - min + 1)) + min;
-    }
+    chanceDeErrar = Math.floor(Math.random() * (max - min + 1)) + min;
 }
