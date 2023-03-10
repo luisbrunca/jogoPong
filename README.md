@@ -20,14 +20,16 @@
 ### Possibilidades do(s) jogador(es)
 
 #### Modos de jogo
-- `Um jogador:` é você contra a máquina, na dificuldade escolhida, até seus dedos cansarem ou você não aguentar mais a surra.
-- `Dois jogadores:` duelo cara a cara entre dois amigos. Mas lembre-se: uma ficha um vencedor.
-- `Batalha das máquinas:` duas máquinas duelando até a mort... quer dizer, até você cansar de assistir.
+
+-   `Um jogador:` é você contra a máquina, na dificuldade escolhida, até seus dedos cansarem ou você não aguentar mais a surra.
+-   `Dois jogadores:` duelo cara a cara entre dois amigos. Mas lembre-se: uma ficha um vencedor.
+-   `Batalha das máquinas:` duas máquinas duelando até a mort... quer dizer, até você cansar de assistir.
 
 #### Dificuldades (modo um jogador)
-- `Fácil:` quando você quer acabar com a máquina sem suar.
-- `Normal:` é para quando desejas um duelo normal mesmo, só isso.
-- `Difícil:` um desafio que pode ser amargo, complicado de engolir.
+
+-   `Fácil:` quando você quer acabar com a máquina sem suar.
+-   `Normal:` é para quando desejas um duelo normal mesmo, só isso.
+-   `Difícil:` um desafio que pode ser amargo, complicado de engolir.
 
 > Além de todas essas opções você ainda pode pausar o jogo quando quiser e mudar qualquer configuração. Divirta-se!
 
@@ -37,7 +39,7 @@
 
 ### Tecnologias utilizadas
 
-- `JavaScript`
-- `HTML`
-- `CSS`
-> No Visual Studio Code.
+-   `JavaScript`
+-   `HTML`
+-   `CSS`
+    > No Visual Studio Code.

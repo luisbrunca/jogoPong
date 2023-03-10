@@ -4,7 +4,6 @@ let erroMaximo = 9;
 var chanceDeErrar = velocidadePadrao;
 
 function calculaDificuldade() {
-
     if (umJogador) {
         if (dificuldade == "easy") {
             erroMinimo = 5;

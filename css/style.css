@@ -1,85 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baumans&display=swap");
 
 body {
-  width: 800px;
-  margin: auto;
-  box-sizing: border-box;
-  background-color: #1C1C1C;
-  color: #ffffff;
+	width: 800px;
+	margin: auto;
+	box-sizing: border-box;
+	background-color: #1c1c1c;
+	color: #ffffff;
 
-  font-family: “Comic Sans MS”, “Comic Sans”, cursive;
+	font-family: “Comic Sans MS”, “Comic Sans”, cursive;
 }
 
 .classMain {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .classMain_conteudo {
-  width: 800px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .classMain_conteudo_titulo {
-  font-family: 'Baumans', cursive;
-  color: #ff8c00;
-  text-shadow: -2px -1px 0px #FFF;
-  text-align: center;
-  font-size: 3.5rem;
-  padding: 1% 0 1% 0;
+	font-family: "Baumans", cursive;
+	color: #ff8c00;
+	text-shadow: -2px -1px 0px #ffffff;
+	text-align: center;
+	font-size: 3.5rem;
+	padding: 1% 0 1% 0;
 }
 
 .classMain_conteudo_enter {
-  font-size: 1rem;
-  color: #ffffff;
-  text-align: center;
-  margin: 0 0 1% 0;
+	font-size: 1rem;
+	color: #ffffff;
+	text-align: center;
+	margin: 0 0 1% 0;
 }
 
 .classMain_conteudo_modoDeJogo {
-  width: 450px;
-  display: flex;
-  justify-content: space-between;
-  padding: 1% 2%;
+	width: 450px;
+	display: flex;
+	justify-content: space-between;
+	padding: 1% 2%;
 
-  border: 2px solid #ffffff;
-  border-radius: 5px;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
 }
 
 .classMain_conteudo_dificuldade {
-  width: 270px;
-  display: flex;
-  justify-content: center;
-  gap: 12%;
-  padding: 1%;
-  margin: 1% 0 1% 0;
+	width: 270px;
+	display: flex;
+	justify-content: center;
+	gap: 12%;
+	padding: 1%;
+	margin: 1% 0 1% 0;
 
-  border: 2px solid #ffffff;
-  border-radius: 5px;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
 }
 
 .classMain_conteudo_pausa {
-  font-size: 1rem;
-  color: #ffffff;
-  text-align: center;
+	font-size: 1rem;
+	color: #ffffff;
+	text-align: center;
 }
 
 .classMain_conteudo_instrucoes {
-  font-size: 1rem;
-  color: #ffffff;
-  text-align: center;
-  margin: 2% 0 1% 0;
+	font-size: 1rem;
+	color: #ffffff;
+	text-align: center;
+	margin: 2% 0 1% 0;
 }
 
 .rodape {
-  background-color: #000000;
-  font-size: 1rem;
-  color: #ffffff;
-  text-align: center;
-  margin: 3% 0 0 0;
-  padding: 5px 0 5px 0;
-  border-top: 2px solid #ffffff;
+	background-color: #000000;
+	font-size: 1rem;
+	color: #ffffff;
+	text-align: center;
+	margin: 3% 0 0 0;
+	padding: 5px 0 5px 0;
+	border-top: 2px solid #ffffff;
 }

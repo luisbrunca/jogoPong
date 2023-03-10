@@ -2,9 +2,9 @@ let jogando = false;
 const velocidadePadrao = 7;
 
 function preload() {
-    trilhaSonora = loadSound("./sons/somTrilhaSonora.mp3")
-    somPonto = loadSound("./sons/somPonto.mp3")
-    somRaquetada = loadSound("./sons/somRaquetada.mp3")
+    trilhaSonora = loadSound("./sons/somTrilhaSonora.mp3");
+    somPonto = loadSound("./sons/somPonto.mp3");
+    somRaquetada = loadSound("./sons/somRaquetada.mp3");
 }
 
 function setup() {
@@ -12,7 +12,6 @@ function setup() {
 }
 
 function draw() {
-
     background(0);
 
     mostraBolinha();
@@ -35,7 +34,6 @@ function draw() {
         colisaoRaqueteBiblioteca(xRaqueteJogador2, yRaqueteJogador2);
         colisaoBordaBiblioteca(xBordaEsquerda, yBordaVertical);
         colisaoBordaBiblioteca(xBordaDireita, yBordaVertical);
-
     } else {
         escolheModoDeJogo();
         escolheDificuldade();
@@ -44,17 +42,14 @@ function draw() {
 
 function keyPressed() {
     if (keyCode === 13) {
-        
         if (jogando == false) {
             jogando = true;
             trilhaSonora.loop();
-            
-            calculaDificuldade()
+
+            calculaDificuldade();
             calculaChanceDeErrar(erroMinimo, erroMaximo);
-        }            
-
+        }
     } else if (keyCode === 80) {
-
         if (jogando == true) {
             jogando = false;
             trilhaSonora.stop();

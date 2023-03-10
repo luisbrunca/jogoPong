@@ -7,10 +7,10 @@ var velocidadeXBolinha = velocidadePadrao;
 var velocidadeYBolinha = velocidadePadrao;
 
 function mostraBolinha() {
-    circle(xBolinha, yBolinha, diametroBolinha);
+	circle(xBolinha, yBolinha, diametroBolinha);
 }
 
 function movimentaBolinha() {
-    xBolinha += velocidadeXBolinha;
-    yBolinha += velocidadeYBolinha;
+	xBolinha += velocidadeXBolinha;
+	yBolinha += velocidadeYBolinha;
 }

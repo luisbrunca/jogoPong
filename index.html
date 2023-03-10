@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jogo Pong</title>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
-        
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/style.css">
+
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
     </head>
 
-    <body>css
+    <body>
+        css
         <main class="classMain">
             <section class="classMain_conteudo">
                 <h1 class="classMain_conteudo_titulo">PONG</h1>
@@ -23,35 +23,37 @@
 
                 <div class="classMain_conteudo_modoDeJogo">
                     <div>
-                        <input type="radio" name="modoDeJogo" id="modoDeJogo_umJogador" checked>
-                            <label for="modoDeJogo_umJogador">Um Jogador</label>
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_umJogador" checked />
+                        <label for="modoDeJogo_umJogador">Um Jogador</label>
                     </div>
                     <div>
-                        <input type="radio" name="modoDeJogo" id="modoDeJogo_doisJogadores">
-                            <label for="modoDeJogo_doisJogadores">Dois Jogadores</label>
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_doisJogadores" />
+                        <label for="modoDeJogo_doisJogadores">Dois Jogadores</label>
                     </div>
                     <div>
-                        <input type="radio" name="modoDeJogo" id="modoDeJogo_somenteMaquinas">
+                        <input type="radio" name="modoDeJogo" id="modoDeJogo_somenteMaquinas" />
                         <label for="modoDeJogo_somenteMaquinas">Batalha das Máquinas</label>
                     </div>
                 </div>
 
                 <div class="classMain_conteudo_dificuldade">
                     <div>
-                        <input type="radio" name="dificuldade" id="dificuldade_facil">
-                            <label for="dificuldade_facil">Fácil</label>
+                        <input type="radio" name="dificuldade" id="dificuldade_facil" />
+                        <label for="dificuldade_facil">Fácil</label>
                     </div>
                     <div>
-                        <input type="radio" name="dificuldade" id="dificuldade_normal" checked>
-                            <label for="dificuldade_normal">Normal</label>
+                        <input type="radio" name="dificuldade" id="dificuldade_normal" checked />
+                        <label for="dificuldade_normal">Normal</label>
                     </div>
                     <div>
-                        <input type="radio" name="dificuldade" id="dificuldade_dificil">
-                            <label for="dificuldade_dificil">Difícil</label>
+                        <input type="radio" name="dificuldade" id="dificuldade_dificil" />
+                        <label for="dificuldade_dificil">Difícil</label>
                     </div>
                 </div>
 
-                <p class="classMain_conteudo_pausa">Você pode apertar a tecla P para pausar e mudar alguma coisa se quiser. ;P</p>
+                <p class="classMain_conteudo_pausa">
+                    Você pode apertar a tecla P para pausar e mudar alguma coisa se quiser. ;P
+                </p>
 
                 <div class="classMain_conteudo_instrucoes">
                     <p>Jogador da esquerda (um jogador): use as teclas W e S para movimentar sua raquete.</p>
@@ -63,7 +65,7 @@
         <footer class="rodape">
             <p>Desenvolvido por Luis Fernando Brunca (feat. Alura).</p>
         </footer>
-        
+
         <script src="./js/main.js"></script>
         <script src="./libraries/p5.collide2d.js"></script>
 
@@ -73,6 +75,5 @@
         <script src="./js/elementos/jogador1.js"></script>
         <script src="./js/elementos/jogador2.js"></script>
         <script src="./js/elementos/dificuldade.js"></script>
-        
     </body>
 </html>
