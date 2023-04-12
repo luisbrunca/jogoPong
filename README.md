@@ -8,8 +8,11 @@
 
 ### Descrição do projeto
 
-> Desenvolvido a partir do projeto do curso de "Lógica de programação: comece em lógica com o jogo Pong e JavaScript" da escola Alura, mas amplamente customizado por mim, para aumentar as possibilidades e a diversão de quem está jogando.</p>
-> Porém, o intuito maior dessa customização foi para praticar lógica de programação e me desafiar a implementar todas as ideias de melhoria ao jogo que me vieram a mente durante as aulas do curso.
+> Desenvolvido a partir do projeto do curso de "Lógica de programação: comece em lógica com o jogo Pong e JavaScript" da
+> escola Alura, mas amplamente customizado por mim, para aumentar as possibilidades e a diversão de quem está jogando.
+>
+> Porém, o intuito maior dessa customização foi para praticar lógica de programação e me desafiar a implementar todas as
+> ideias de melhoria ao jogo que me vieram a mente durante as aulas do curso.
 
 <div align="center">
 
@@ -21,7 +24,8 @@
 
 #### Modos de jogo
 
--   `Um jogador:` é você contra a máquina, na dificuldade escolhida, até seus dedos cansarem ou você não aguentar mais a surra.
+-   `Um jogador:` é você contra a máquina, na dificuldade escolhida, até seus dedos cansarem ou você não aguentar mais a
+    surra.
 -   `Dois jogadores:` duelo cara a cara entre dois amigos. Mas lembre-se: uma ficha um vencedor.
 -   `Batalha das máquinas:` duas máquinas duelando até a mort... quer dizer, até você cansar de assistir.
 
@@ -35,7 +39,8 @@
 
 ### Mas e aí, como jogar?
 
-> Você pode simplesmente <a href="https://jogo-pong-luisbrunca.vercel.app/">clicar aqui e jogar</a>, ou baixá-lo em formato zip <a href="https://github.com/luisbrunca/jogoPong/archive/refs/heads/main.zip">aqui</a>.
+> Você pode simplesmente <a href="https://jogo-pong-luisbrunca.vercel.app/">clicar aqui e jogar</a>, ou baixá-lo em
+> formato zip <a href="https://github.com/luisbrunca/jogoPong/archive/refs/heads/main.zip">aqui</a>.
 
 ### Tecnologias utilizadas
 
